@@ -1,5 +1,6 @@
 from tkinter import*
 root=Tk()
+root.iconbitmap("cc.ico")
 
 root.title("Simple calculator")
 root.configure(bg="gray")
@@ -90,7 +91,7 @@ button_mul=Button(root,text="*",padx=39,pady=20,command=button_mul,border="5",bg
 button_div=Button(root,text="/",padx=39,pady=20,command=button_div,border="5",bg='lightcyan')
 button_equal=Button(root,text="=",padx=90,pady=20,command=button_equal,fg="black",bg="aquamarine",border="5")
 button_clear=Button(root,text="Clear",padx=180,pady=8,command=button_clear,border="5",bg="honeydew")
-button_exit=Button(root,text="exit",padx=40,pady=8,command=button_exit,border="5",bg="honeydew")
+button_exit=Button(root,text="exit",padx=40,pady=5,command=button_exit,border="5",bg="honeydew")
 
 
 button_del.grid(row=0,column=4)
